@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-AM2302\stm32_lib\inc -I..\..\..\workspace\STM32F0-AM2302 -I..\..\..\workspace -I..\..\..\workspace\STM32F0-AM2302\cmsis_core -I..\..\..\workspace\STM32F0-AM2302\cmsis_boot -I..\..\..\workspace\STM32F0-AM2302\stm32_lib">
+      <target file="stm32f0xx_syscfg.o" lastModified="14b523d0b80">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_syscfg.c" lastModified="14b522b87bf"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="14b523d047c">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="14b5229c985"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="14b523cfd78">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14b5229c98c"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="14b523d0dea">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="14b5229d195"/>
+      </target>
+      <target file="main.o" lastModified="14b52954dac">
+         <source file="..\..\..\main.c" lastModified="14b529543b4"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="14b523d075c">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="14b5229e747"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="14b523d096a">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_exti.c" lastModified="14b5229c95e"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="14b523d004c">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14b5229c992"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="14b523d0254">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14b5229c9af"/>
+      </target>
+   </processor>
+</history>

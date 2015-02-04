@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32F0-AM2302.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-AM2302 -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-AM2302/arm-gcc-link.ld -g">
+      <target file="STM32F0-AM2302.elf" lastModified="14b529552e6">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="14b523cfd78"/>
+         <source file="..\obj\main.o" lastModified="14b52954dac"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="14b523d004c"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="14b523d0254"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="14b523d047c"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="14b523d075c"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="14b523d096a"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="14b523d0b80"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="14b523d0dea"/>
+      </target>
+   </processor>
+</history>
